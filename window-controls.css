@@ -1,0 +1,67 @@
+.titlebar-buttonbox-container {
+	margin-bottom: 0 !important;
+}
+
+.titlebar-button > .toolbarbutton-icon {
+	height: 14px !important;
+	min-height: 14px !important;
+	width: 14px !important;
+	min-width: 14px !important;
+}
+
+.titlebar-button {
+	-moz-context-properties: fill, fill-opacity !important;
+	background: none !important;
+	padding: 0px 8px !important;
+}
+
+.titlebar-buttonbox {
+	display: flex;
+	-moz-context-properties: fill, fill-opacity !important;
+	margin-right: 10px;
+}
+
+/* close button */
+.titlebar-close {
+	-moz-appearance: none !important;
+	fill: var(--wc-red) !important;
+	opacity: 0.7 !important;
+	list-style-image: url(circle.svg) !important;
+}
+.titlebar-close:hover {
+	opacity: 1 !important;
+}
+
+/* minimize button */
+.titlebar-min {
+	-moz-appearance: none !important;
+	fill: var(--wc-yellow) !important;
+	opacity: 0.7 !important;
+	list-style-image: url(circle.svg) !important;
+  margin-inline-end: 0px !important;
+}
+.titlebar-min:hover {
+	opacity: 1 !important;
+}
+
+/* maximize button */
+.titlebar-max {
+	-moz-appearance: none !important;
+	fill: var(--wc-green) !important;
+	opacity: 0.7 !important;
+	list-style-image: url(circle.svg) !important;
+}
+.titlebar-max:hover {
+	opacity: 1 !important;
+}
+
+/* restore button */
+.titlebar-restore {
+	-moz-appearance: none !important;
+	fill: var(--wc-green) !important;
+	opacity: 0.7 !important;
+	list-style-image: url(circle.svg) !important;
+}
+.titlebar-restore:hover {
+	opacity: 1 !important;
+}

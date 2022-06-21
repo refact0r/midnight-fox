@@ -1,0 +1,43 @@
+#tabbrowser-tabs:not([noshadowfortests])
+	.tab-background:is([selected], [multiselected]) {
+	box-shadow: none !important;
+}
+
+#tabbrowser-tabs {
+	--tab-loading-fill: var(--accent) !important;
+}
+
+.tab-background {
+	border: none !important;
+}
+
+.tabbrowser-tab:hover
+	> .tab-stack
+	> .tab-background:not([selected='true'], [multiselected]) {
+	background-color: var(--bg-hover-light) !important;
+}
+
+#urlbar[open] > #urlbar-background {
+	box-shadow: var(--shadow) !important;
+	border-radius: var(--roundness) !important;
+}
+
+#navigator-toolbox {
+	background-color: var(--bg-primary) !important;
+	border-bottom: none !important;
+}
+
+spacer,
+button {
+	border: none !important;
+}
+
+button,
+input,
+menulist {
+	border-radius: var(--roundness-small) !important;
+}
+
+.checkbox-check {
+	border-radius: var(--roundness-tiny) !important;
+}
