@@ -21,12 +21,12 @@
 	--shadow: 0 0 4px hsla(0, 0%, 0%, 0.4);
 	--roundness: 12px;
 	--roundness-small: 8px;
-  	--roundness-tiny: 4px;
+	--roundness-tiny: 4px;
 	--navbar-height: 56px;
 	--sidebar-collapsed-width: 56px;
 	--sidebar-width: 250px;
 	--transition-duration: 0.3s;
-  --transition-ease: ease-out;
+	--transition-ease: ease-out;
 
 	--button-bgcolor: var(--bg-secondary) !important;
 	--button-hover-bgcolor: var(--bg-hover) !important;
@@ -116,4 +116,15 @@ menuseparator {
 panel,
 menupopup {
 	--windows-panel-box-shadow: var(--shadow) !important;
+}
+
+spacer,
+button {
+	border: none !important;
+}
+
+button,
+input,
+menulist {
+	border-radius: var(--roundness-small) !important;
 }

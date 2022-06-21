@@ -24,4 +24,5 @@
 
 #urlbar {
 	--urlbar-toolbar-height: 40px !important;
+	z-index: 200 !important;
 }
