@@ -27,17 +27,6 @@
 	border-bottom: none !important;
 }
 
-spacer,
-button {
-	border: none !important;
-}
-
-button,
-input,
-menulist {
-	border-radius: var(--roundness-small) !important;
-}
-
 .checkbox-check {
 	border-radius: var(--roundness-tiny) !important;
 }
