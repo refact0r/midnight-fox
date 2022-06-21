@@ -1,0 +1,33 @@
+#sidebar-box[sidebarcommand='treestyletab_piro_sakura_ne_jp-sidebar-action']
+	#sidebar-header {
+	display: none;
+}
+
+#sidebar-box {
+	z-index: 100 !important;
+	position: relative !important;
+	min-width: var(--sidebar-collapsed-width) !important;
+	max-width: var(--sidebar-collapsed-width) !important;
+}
+
+/* inner width = expanded width & move inner to only show initial-width long section */
+#sidebar-box #sidebar {
+	background: var(--toolbar-bgcolor);
+	position: absolute !important;
+	min-width: var(--sidebar-width) !important;
+	max-width: var(--sidebar-width) !important;
+	width: var(--sidebar-width) !important;
+	transform: translateX(
+		calc(var(--sidebar-collapsed-width) - var(--sidebar-width))
+	);
+	transition: var(--transition-duration) var(--transition-ease);
+}
+
+#sidebar-box #sidebar:hover {
+	transform: translateX(0) !important;
+}
+
+#sidebar-box[sidebarcommand='viewBookmarksSidebar'] #sidebar {
+	transform: translateX(0) !important;
+}
+
