@@ -4,7 +4,6 @@
 }
 
 #tabbrowser-tabs {
-	--tab-loading-fill: var(--accent) !important;
 }
 
 .tab-background {

@@ -7,16 +7,17 @@
 	--wc-red: hsl(-10, 90%, 60%);
 	--wc-green: hsl(160, 90%, 40%);
 	--wc-yellow: hsl(50, 90%, 60%);
-	--bg-primary: hsl(220, 15%, 10%);
-	--bg-secondary: hsl(220, 15%, 13%);
-	--bg-tertiary: hsl(220, 15%, 16%);
-	--bg-quaternary: hsl(220, 15%, 19%);
-	--bg-hover-light: hsla(220, 50%, 80%, 0.03);
-	--bg-hover: hsla(220, 50%, 80%, 0.04);
-	--bg-active: hsla(220, 50%, 80%, 0.09);
-	--text-primary: hsl(220, 20%, 60%);
-	--text-secondary: hsl(220, 20%, 45%);
-	--text-tertiary: hsl(220, 20%, 30%);
+	--bg-primary: hsl(210, 20%, 10%);
+	--bg-secondary: hsl(210, 20%, 13%);
+	--bg-tertiary: hsl(210, 20%, 16%);
+	--bg-quaternary: hsl(210, 20%, 19%);
+	--bg-hover-light: hsla(210, 50%, 80%, 0.03);
+	--bg-hover: hsla(210, 50%, 80%, 0.04);
+	--bg-active: hsla(210, 50%, 80%, 0.09);
+	--text-bright: hsl(210, 50%, 95%);
+	--text-primary: hsl(210, 20%, 60%);
+	--text-secondary: hsl(210, 20%, 45%);
+	--text-tertiary: hsl(210, 20%, 30%);
 	--accent: hsl(190, 60%, 50%);
 	--shadow: 0 0 4px hsla(0, 0%, 0%, 0.4);
 	--roundness: 12px;
@@ -25,47 +26,21 @@
 	--navbar-height: 56px;
 	--sidebar-collapsed-width: 56px;
 	--sidebar-width: 250px;
-	--transition-duration: 0.3s;
+	--transition-duration: 0.2s;
 	--transition-ease: ease-out;
 
 	--button-bgcolor: var(--bg-secondary) !important;
 	--button-hover-bgcolor: var(--bg-hover) !important;
 	--button-active-bgcolor: var(--bg-active) !important;
-	--button-primary-bgcolor: rgb(0, 221, 255);
-	--button-primary-hover-bgcolor: rgb(128, 235, 255);
-	--button-primary-active-bgcolor: rgb(170, 242, 255);
-	--button-primary-color: rgb(43, 42, 51);
-	--error-text-color: rgb(255, 154, 162);
-	--tab-icon-overlay-stroke: rgb(66, 65, 77);
-	--tab-icon-overlay-fill: rgb(251, 251, 254);
-	--input-bgcolor: var(--bg-secondary);
-	--input-color: var(--text-primary);
-	--input-border-color: none;
-	--panel-banner-item-update-supported-bgcolor: rgb(84, 255, 189);
-	--panel-banner-item-info-icon-bgcolor: rgb(128, 235, 255);
+	--input-bgcolor: var(--bg-secondary) !important;
+	--input-color: var(--text-primary) !important;
+	--input-border-color: none !important;
+	--panel-banner-item-update-supported-bgcolor: none;
+	--panel-banner-item-info-icon-bgcolor: none;
 	--panel-item-hover-bgcolor: var(--bg-hover) !important;
 	--panel-item-active-bgcolor: var(--bg-active) !important;
-	--arrowpanel-dimmed-further: color-mix(
-		in srgb,
-		currentColor 14%,
-		transparent
-	);
-	--panel-item-active-bgcolor: color-mix(
-		in srgb,
-		currentColor 25%,
-		transparent
-	);
-	--panel-separator-zap-gradient: linear-gradient(
-		90deg,
-		#9059ff 0%,
-		#ff4aa2 52.08%,
-		#ffbd4f 100%
-	);
-	--panel-disabled-color: rgba(251, 251, 254, 0.5);
-	--panel-description-color: rgba(251, 251, 254, 0.7);
 	--panel-border-radius: var(--roundness) !important;
 	--panel-separator-color: var(--bg-tertiary) !important;
-	--urlbar-icon-fill-opacity: 1;
 	--urlbar-box-bgcolor: var(--bg-tertiary) !important;
 	--urlbar-box-focus-bgcolor: var(--bg-tertiary) !important;
 	--urlbar-box-hover-bgcolor: var(--bg-hover) !important;
@@ -83,15 +58,12 @@
 	--toolbar-field-focus-color: var(--text-primary) !important;
 	--toolbar-bgcolor: var(--bg-primary) !important;
 	--toolbar-color: var(--text-primary) !important;
-	--chrome-content-separator-color: rgb(12, 12, 13);
 	--toolbarbutton-icon-fill: var(--text-primary) !important;
 	--toolbarbutton-hover-background: var(--bg-hover) !important;
 	--toolbarbutton-active-background: var(--bg-active) !important;
 	--toolbarbutton-border-radius: var(--roundness-small) !important;
-	--toolbarseparator-color: color-mix(in srgb, currentColor 20%, transparent);
 	--lwt-tab-text: var(--text-primary) !important;
 	--lwt-selected-tab-background-color: var(--bg-secondary) !important;
-	--lwt-accent-color: rgb(28, 27, 34);
 	--lwt-text-color: var(--text-primary) !important;
 	--lwt-tab-line-color: none !important;
 	--tab-loading-fill: red !important;
@@ -101,12 +73,10 @@
 	--windows-panel-box-shadow: var(--shadow) !important;
 	--menuitem-hover-background-color: var(--bg-hover) !important;
 	--menuitem-active-background-color: var(--bg-active) !important;
-	--menuitem-disabled-hover-background-color: rgba(224, 224, 230, 0.4);
 	--menu-background-color: var(--bg-primary) !important;
 	--menu-color: var(--text-primary) !important;
-	--menu-disabled-color: rgba(21, 20, 26, 0.4);
 	--menu-border-color: none !important;
-	--menu-icon-opacity: 0.7;
+	--tabpanel-background-color: var(--bg-primary) !important;
 }
 
 menuseparator {
