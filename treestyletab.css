@@ -2,16 +2,17 @@
 	--wc-red: hsl(-10, 90%, 60%);
 	--wc-green: hsl(160, 90%, 40%);
 	--wc-yellow: hsl(50, 90%, 60%);
-	--bg-primary: hsl(220, 15%, 10%);
-	--bg-secondary: hsl(220, 15%, 13%);
-	--bg-tertiary: hsl(220, 15%, 16%);
-	--bg-quaternary: hsl(220, 15%, 19%);
-	--bg-hover-light: hsla(220, 50%, 80%, 0.03);
-	--bg-hover: hsla(220, 50%, 80%, 0.04);
-	--bg-active: hsla(220, 50%, 80%, 0.09);
-	--text-primary: hsl(220, 20%, 60%);
-	--text-secondary: hsl(220, 20%, 45%);
-	--text-tertiary: hsl(220, 20%, 30%);
+	--bg-primary: hsl(210, 20%, 10%);
+	--bg-secondary: hsl(210, 20%, 13%);
+	--bg-tertiary: hsl(210, 20%, 16%);
+	--bg-quaternary: hsl(210, 20%, 19%);
+	--bg-hover-light: hsla(210, 50%, 80%, 0.03);
+	--bg-hover: hsla(210, 50%, 80%, 0.04);
+	--bg-active: hsla(210, 50%, 80%, 0.09);
+	--text-bright: hsl(210, 50%, 95%);
+	--text-primary: hsl(210, 20%, 60%);
+	--text-secondary: hsl(210, 20%, 45%);
+	--text-tertiary: hsl(210, 20%, 30%);
 	--accent: hsl(190, 60%, 50%);
 	--shadow: 0 0 4px hsla(0, 0%, 0%, 0.4);
 	--roundness: 12px;
@@ -20,8 +21,13 @@
 	--navbar-height: 56px;
 	--sidebar-collapsed-width: 56px;
 	--sidebar-width: 250px;
-	--transition-duration: 0.3s;
+	--transition-duration: 0.2s;
 	--transition-ease: ease-out;
+}
+
+tab-item * {
+	--tab-surface: var(--bg-primary) !important;
+	--tab-text: var(--text-primary) !important;
 }
 
 tab-item .background {
@@ -57,7 +63,6 @@ tab-item tab-item-substance {
 
 #tabbar {
 	padding: 0 10px 10px 10px;
-	background: var(--bg-primary);
 	scrollbar-color: var(--bg-primary) transparent;
 }
 
@@ -92,11 +97,6 @@ tab-item tab-closebox {
 tab-item tab-closebox::before {
 	border-radius: var(--roundness-tiny);
 }
-
-.newtab-button-box {
-	background: var(--bg-primary) !important;
-}
-
 .newtab-button {
 	padding: 12px !important;
 }
