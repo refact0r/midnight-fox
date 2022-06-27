@@ -7,17 +7,24 @@
 	--wc-red: hsl(-10, 90%, 60%);
 	--wc-green: hsl(160, 90%, 40%);
 	--wc-yellow: hsl(50, 90%, 60%);
-	--bg-primary: hsl(210, 20%, 10%);
-	--bg-secondary: hsl(210, 20%, 13%);
-	--bg-tertiary: hsl(210, 20%, 16%);
-	--bg-quaternary: hsl(210, 20%, 19%);
+	--bg-primary: #151a1f;
+	--bg-secondary: #1b2127;
+	--bg-tertiary: #222930;
 	--bg-hover-light: hsla(210, 50%, 80%, 0.03);
-	--bg-hover: hsla(210, 50%, 80%, 0.04);
-	--bg-active: hsla(210, 50%, 80%, 0.09);
-	--text-bright: hsl(210, 50%, 95%);
-	--text-primary: hsl(210, 20%, 60%);
-	--text-secondary: hsl(210, 20%, 45%);
-	--text-tertiary: hsl(210, 20%, 30%);
+	--bg-hover: color-mix(
+		in srgb,
+		currentColor 6%,
+		transparent
+	); /*hsla(210, 50%, 80%, 0.04);*/
+	--bg-active: color-mix(
+		in srgb,
+		currentColor 12%,
+		transparent
+	); /*hsla(210, 50%, 80%, 0.09);*/
+	--text-bright: #f0f5fa;
+	--text-primary: #8599ad;
+	--text-secondary: #5c738a;
+	--text-tertiary: #3b4a59;
 	--accent: hsl(190, 60%, 50%);
 	--shadow: 0 0 4px hsla(0, 0%, 0%, 0.4);
 	--roundness: 12px;
